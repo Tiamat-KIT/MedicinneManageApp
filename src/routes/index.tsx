@@ -1,11 +1,13 @@
 
 import { TextInput } from "~/components/Form";
+import Table from "~/components/Table";
 
 export default function Home() {
   return (
     <>
     
-    <main class="text-center mx-auto text-gray-700 p-4">
+    <main class="mx-auto text-gray-700 p-4">
+    <Table />
       <div class="fixed bottom-4 right-4">
         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold h-12 w-12 rounded-full flex items-center justify-center"
           onClick={()=>(document.getElementById('my_modal_1') as HTMLDialogElement)!.showModal()}>
@@ -17,6 +19,7 @@ export default function Home() {
       <dialog id="my_modal_1" class="modal">
         <div class="modal-box">
           <h3 class="font-bold text-lg">Hello!</h3>
+          
           <p class="py-4">Press ESC key or click the button below to close</p>
           <div class="modal-action">
           <TextInput />
