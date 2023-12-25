@@ -1,6 +1,10 @@
-import { defineConfig } from 'vite'
-import solid from 'vite-plugin-solid'
+import { defineConfig } from "@solidjs/start/config";
 
 export default defineConfig({
-  plugins: [solid()],
-})
+    start: { 
+        ssr: false,
+        server: {
+            preset: "vercel"
+        }
+     }
+});
