@@ -8,7 +8,6 @@ export default function Home() {
     <>
     
     <main class="text-center mx-auto text-gray-700 p-4">
-      <Table />
       <div class="fixed bottom-4 right-4">
         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold h-12 w-12 rounded-full flex items-center justify-center"
           onClick={()=>(document.getElementById('my_modal_1') as HTMLDialogElement)!.showModal()}>
