@@ -1,8 +1,6 @@
-import { A } from "@solidjs/router";
-import Counter from "~/components/Counter";
+
 import { TextInput } from "~/components/Form";
-import { } from "solid-js/html"
-import Table from "~/components/Table";
+
 export default function Home() {
   return (
     <>
