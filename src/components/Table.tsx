@@ -5,7 +5,7 @@ export default function Table(){
           <thead>
             <tr>
               <th></th>
-              <th>åå</th>
+              <th>名前</th>
             </tr>
           </thead>
           <tbody>
