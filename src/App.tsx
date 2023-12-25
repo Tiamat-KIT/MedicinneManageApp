@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <div class="navbar bg-base-100 w-full">
+      <div class="navbar bg-base-100 min-w-full max-w-full">
         <div class="navbar-center">
           <a class="btn btn-ghost text-xl">お薬管理</a>
         </div>
