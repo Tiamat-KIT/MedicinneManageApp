@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <div class="navbar bg-base-100 w-full sm:w-auto">
+      <div class="navbar bg-base-100 w-full">
         <div class="navbar-center">
           <a class="btn btn-ghost text-xl">お薬管理</a>
         </div>
@@ -20,7 +20,7 @@ function App() {
           </button>
         </div>
       </div>
-        <table class="overflow-x-auto table table-xs w-full sm:w-auto">
+        <table class="overflow-x-auto table table-xs w-full">
           {/* head */}
           <thead>
             <tr>
