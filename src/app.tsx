@@ -10,7 +10,6 @@ export default function App() {
     <Router
       root={(props) => (
         <>
-          <meta charset="UTF-8" />
           <CustomNav />
           <Suspense>{props.children}</Suspense>
         </>
