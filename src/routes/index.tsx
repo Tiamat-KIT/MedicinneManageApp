@@ -2,33 +2,13 @@ import { A } from "@solidjs/router";
 import Counter from "~/components/Counter";
 import { TextInput } from "~/components/Form";
 import { } from "solid-js/html"
+import Table from "~/components/Table";
 export default function Home() {
   return (
     <>
     
     <main class="text-center mx-auto text-gray-700 p-4">
-      <h1 class="max-6-xs text-6xl text-sky-700 font-thin uppercase my-16">
-        Hello world!
-      </h1>
-      <Counter />
-      <p class="mt-8">
-        Visit{" "}
-        <a
-          href="https://solidjs.com"
-          target="_blank"
-          class="text-sky-600 hover:underline"
-        >
-          solidjs.com
-        </a>{" "}
-        to learn how to build Solid apps.
-      </p>
-      <p class="my-4">
-        <span>Home</span>
-        {" - "}
-        <A href="/about" class="text-sky-600 hover:underline">
-          About Page
-        </A>{" "}
-      </p>
+      <Table />
       <div class="fixed bottom-4 right-4">
         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold h-12 w-12 rounded-full flex items-center justify-center"
           onClick={()=>(document.getElementById('my_modal_1') as HTMLDialogElement)!.showModal()}>
