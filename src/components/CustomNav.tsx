@@ -2,7 +2,7 @@ export default function CustomNav(){
     return (
         <div class="navbar bg-base-100">
             <div class="navbar-start">
-                <a>a</a>
+                <a></a>
             </div>
             <div class="navbar-center">
             <a class="btn btn-ghost text-xl">お薬管理</a>

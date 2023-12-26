@@ -1,6 +1,6 @@
 export default function Table(){
     return (
-        <table class="overflow-x-auto table table-xs w-full">
+        <table class="overflow-x-auto table table-md w-full">
           {/* head */}
           <thead>
             <tr>
